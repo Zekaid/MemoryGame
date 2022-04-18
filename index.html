@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Game
+    </h1>
+    <div id="margin">
+    <p>
+      Rules: Each round, a sequence of tiles will light up and make a sound. The game starts with
+      1 tile and increments all the way up to 8. You win the game if you can guess all the patterns correctly! 
+      You get 20 seconds each round, and a total of 3 tries!
+    </p>
+    </div>
+    <p>
+      Note: In the hard mode, only the correct pattern will light up, and all the other blocks will
+      disappear. This prevents you from retaining spatial memory, which will make the game harder.
+    </p>
+    <div>
+    <p id="gamemode">Game Mode: Normal</p>
+    </div>
+    <div >
+    <p id="timer">Time Left: 20</p>
+    </div>
+    
+    <button id="startBtn" onclick="startGame()" >Start</button>
+    <button class="hidden" id="stopBtn" onclick="stopGame()">Stop</button>
+    <button id="change" onclick="change()" >Change Mode</button>
+   
+    <div id="gameButtonArea">
+      <button id="button1" onmousedown="startTone(1)" onmouseup="stopTone(1)" onclick="guess(1)"></button>
+      <button id="button2" onmousedown="startTone(2)" onmouseup="stopTone(2)" onclick="guess(2)"></button>
+      <button id="button3" onmousedown="startTone(3)" onmouseup="stopTone(3)" onclick="guess(3)"></button>
+      <button id="button4" onmousedown="startTone(4)" onmouseup="stopTone(4)" onclick="guess(4)"></button>
+    </div>
+    
+    
+    <img id="image1" class="images" src="https://cdn.glitch.global/26806c27-aca8-47a5-8fa1-a44c5721637d/crypepe.jpeg?v=1650130528795">
+    <img id="image2" class="images" src="https://cdn.glitch.global/26806c27-aca8-47a5-8fa1-a44c5721637d/monkaw.jpeg?v=1650130531136">
+    <img id="image3" class="images" src="https://cdn.glitch.global/26806c27-aca8-47a5-8fa1-a44c5721637d/sadge.jpeg?v=1650130539337">
+    <img id="image4" class="images" src="https://cdn.glitch.global/26806c27-aca8-47a5-8fa1-a44c5721637d/pepehappy.jpeg?v=1650130613285">
+    
+  </body>
+</html>
