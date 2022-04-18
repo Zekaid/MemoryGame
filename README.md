@@ -43,15 +43,6 @@ The following **additional** features are implemented:
 ![](https://i.imgur.com/hUYwMyF.gif)
 
 
-
-![](https://i.imgur.com/baGCgwa.gif)
-
-
-![](https://i.imgur.com/qfYCDYE.gif)
-
-
-![](https://i.imgur.com/Hrzr2Am.gif)
-
 ## Reflection Questions
 **1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.**
 I referenced HTML, CSS, and JavaScript syntax on W3schools.
