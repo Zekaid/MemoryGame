@@ -42,7 +42,6 @@ The following **additional** features are implemented:
 **Beating the Normal Game Mode**
 ![](https://i.imgur.com/hUYwMyF.gif)
 
-
 **Beating the Hard Game Mode**
 ![](https://i.imgur.com/baGCgwa.gif)
 
