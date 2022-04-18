@@ -40,7 +40,20 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough (GIF)
 
-![](https://i.imgur.com/hUYwMyF.gif)
+**Beating the Normal Game Mode**
+![](https://i.imgur.com/yP7aCKR.gif)
+
+
+**Beating the Hard Game Mode**
+![](https://i.imgur.com/rtoSU83.gif)
+
+
+**Using up 3 tries**
+![](https://i.imgur.com/pShBbdE.gif)
+
+
+**Running out of time**
+![](https://i.imgur.com/Hrzr2Am.gif)
 
 
 ## Reflection Questions
