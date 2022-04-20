@@ -78,8 +78,7 @@ I would definitely focus on making the game bug proof and aesthetic. I noticed t
 
 ## Interview Recording URL Link
 
-https://www.youtube.com/watch?v=p0-TRm7nyys
-
+https://www.youtube.com/watch?v=RRJYfk4JGeo
 
 ## License
 
